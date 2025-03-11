@@ -107,8 +107,10 @@
 							<p>
 								I am a PhD candidate at Leiden Observatory, the astronomy department at 
 								Leiden University.  I work on galaxy formation and evolution, with a particular 
-								interest in elemental abundances.  My advisor is 
-								<a href="https://home.strw.leidenuniv.nl/~kriek/">Mariska Kriek</a>.<br>
+								interest in stellar populations and elemental abundances.  My advisor is 
+								<a href="https://home.strw.leidenuniv.nl/~kriek/">Mariska Kriek</a>.  I am
+								also a Co-PI on a Cycle 3 JWST/NIRSpec program, which will be observed
+								very soon.  Stay tuned for more information!<br>
 								<br>
 								Outside of astronomy, I enjoy knitting, cooking, sewing, exercising, 
 								and singing!  I am originally from Markham, Ontario, but I have also lived in Arcata, California,
@@ -138,7 +140,8 @@
 								<b>Research Interests:</b> I am broadly interested in galaxy formation and evolution.
 								In general, I use spectroscopy to reveal the early stages of galaxy evolution and 
 								star formation, using the archaeological record contained in the chemistry of stellar 
-								populations.  I enjoy mixing observational techniques with statistical and computational
+								populations.  I examine both resolved and unresolved stellar populations.
+								I enjoy mixing observational techniques with statistical and computational
 								methods.  
 							</p>
 							<p>
@@ -163,47 +166,49 @@
 								In all of my work, I use spectroscopy to examine the stellar populations of different
 								regions.  Below is a summary of each of my major projects.  (Image credit: NASA)
 							</p>
+							<span class="image fit">
+								<img src="images/gradients_vs_re_sigmabin.jpeg" alt=""/>
+							</span>
 							<p>
 								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
 									the next line.
 								-->
-								<b>Unravelling the formation histories of distant quiescent galaxies using ultra-deep 
-									spectroscopy</b><br>
-								Fundamental insights into the chemical enrichment, assembly, and star formation
-								histories of galaxies across cosmic time can be gained by examining the fossil records 
-								encoded in their stellar populations.  Previously, 
-								<a href="https://ui.adsabs.harvard.edu/abs/2021ApJ...917L...1B/abstract">
-									Beverage et al. (2021)</a> and Beverage et al. (in prep). measured the integrated 
-								chemical abundance patterns in a large sample of massive early-type galaxies (ETGs) at 
-								redshifts between 0.6 and 0.75 from the 
-								<a href="https://users.ugent.be/~avdrwel/research.html#legac">LEGA-C</a> survey.  From these 
-								results, we have learned fascinating new details about chemical enrichment regulation, star 
-								formation timescales, and galaxy quenching.  However, the detailed star formation and assembly 
-								histories of galaxies are imprinted in the spatial distributions of their chemical abundances.  
-								We are currently working on measuring spatially-resolved stellar population parameters in the 
-								LEGA-C ETGs by employing the <a href="https://github.com/cconroy20/alf">alf</a> models over 
-								different apertures.  alf is a suite of full-spectrum stellar population synthesis models that 
-								simultaneously fit for ages, metallicities, and detailed chemical abundances.<br><br>
+								<b>Age and metal gradients in massive quiescent galaxies at 0.6 ≲ z ≲ 1.0: implications for quenching and assembly histories</b><br>
+								Examining spatially resolved stellar populations can give us insight into the assembly histories and 
+								quenching mechanisms of massive quiescent galaxies.  In particular, stellar population gradients
+								encode the build-up of stellar mass and allow us to differentiate quenching mechanisms and assembly scenarios.  
+								This has primarily been done at low redshifts, but has been challenging to apply beyond the local Universe as ultra-deep, high-S/N 
+								spectra are required.  This is now possible with the LEGA-C survey.  We have measured spatially resolved stellar ages, metallicities 
+								and abundance ratios for 456 massive, quiescent galaxies at 0.6 ≲ z ≲ 1.0 from the LEGA-C survey, using full-spectrum models.  
+								On average, we found flat age and [Mg/Fe] gradients and negative [Fe/H] gradients.  We also estimated what the intrinsic
+								[Fe/H] gradients are expected to look like via forward modeling.  Additionally, we found that younger quiescent galaxies
+								have negative [Fe/H] gradients and positive age gradients, which may indicate a recent central starburst in these galaxies.  
+								This result further suggests that flat colour gradients measured via photometry in young quiescent galaxies are due to the 
+								positive age and negative metallicity gradients compensating each other.  In older quiescent galaxies, we found that
+								the age gradients flatten and [Fe/H] gradients weaken (although they remain negative).  Therefore, the negative colour
+								gradients that have been measured for older quiescent galaxies are likely driven by metallicity gradients, while the 
+								flattening age gradient may be a result of the fading of the central starburst.  The persistence of the negative [Fe/H]
+								gradients may hint at minor mergers, in particular, the outskirts of these galaxies may be simultaneously built up by mergers with 
+								lower metallicity satellite galaxies.  However, these gradients could also be inherited from star-forming progenitors, which means
+								that mergers may not be needed to explain our results.  This work was published in 
+								<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.3604C/abstract">Cheng et al. 
+									(2024)</a>.
+
+								We are also currently applying a similar method to our Cycle 1 JWST/NIRSpec program, 
+								<a href="https://suspense.strw.leidenuniv.nl/">SUSPENSE</a> 
+								(see <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...973..131S/abstract">Slob et al. 2024</a>).  This study will extend
+								the analysis presented above to massive quiescent galaxies at redshifts up to ~3, generating the first
+								measurements of spatially-resolved stellar populations via absorption line spectra at these redshifts. 
+								Stay tuned for new results coming very soon!
 								
-								In the near future, we will apply the methods that we develop with the LEGA-C data to our
-								approved 
-								<a href="https://www.stsci.edu/jwst/science-execution/program-information.html?id=2110">
-									Cycle 1 JWST/NIRSpec program</a>.  We will obtain deep rest-frame optical 
-								spectra of quiescent and star-forming galaxies, extending this analysis to higher 
-								redshifts (between 1.0 and 2.5).  We will additionally be able to combine this with data 
-								from the <a href="https://heavymetal.astro.berkeley.edu/">Heavy Metal survey</a>, which 
-								contains ultra-deep spectra of 20 quiescent galaxies at redshifts 1.3 to 2.3.  Together,
-								these three datasets will provide a deeper understanding of the formation histories of 
-								quiescent galaxies over ~5 Gyr of cosmic time.<br><br>
-								
-								Stay tuned for new results coming soon!
+								Finally, the work done with LEGA-C has also spawned an additional paper, which has been submitted to MNRAS.  More
+								details will follow after acceptance. 
 							</p>
 							<span class="image fit">
 								<img src="images/paper_fig3.jpg" alt=""/>
 							</span>
 							<p>
-								<b>Testing the extremes of initial mass function variability using compact stellar
-								systems</b><br>
+								<b>Initial mass function variability from the integrated light of diverse stellar systems</b><br>
 								A fundamental concept underpinning star formation and galaxy evolution studies is the 
 								distribution of birth stellar masses in a galaxy, called the initial mass function 
 								(IMF).  Traditionally, most studies have assumed that the IMF is "universal", because 
@@ -287,13 +292,13 @@
 							</span>
 							<p>
 								<b>Teaching:</b> I have worked as a teaching assistant at the University
-								of Waterloo from 2020 - 2022.  I will begin working as a teaching assistant
-								at Leiden University starting Winter 2023.  Below are a list of courses 
-								that I have/will TA:
+								of Waterloo from 2020 - 2022.  I began working as a teaching assistant
+								at Leiden University in 2023.  Below are a list of courses 
+								that I have TA'd:
 								<ul>
 									<li>Leiden University: 
 										<ul>
-											<li>Galaxies and Cosmology (Winter 2023, Winter 2024)</li>
+											<li>Galaxies and Cosmology (Winter 2023, Winter 2024, Winter 2025)</li>
 										</ul>
 									</li>
 									<li>University of Waterloo:
@@ -314,7 +319,7 @@
 								activities in this area:
 								<ul>
 									<li>Leiden Observatory Social Committee.  Member.  April 2023 - Present.</li>
-									<li>Leiden Observatory Borrel Committee.  Member.  September 2023 - Present.</li>
+									<li>Leiden Observatory Borrel Committee.  Member.  September 2023 - September 2024</li>
 									<li>Leiden Observatory Equity, Diversity, and Inclusion Committee.  Member.
 										Sept. 2022 - Apr. 2024</li>
 									<li>Seeing Stars Leiden.  Volunteer.  Sept. 2022.</li>
